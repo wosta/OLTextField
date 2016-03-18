@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		853625A21C9B998100677A09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853625A11C9B998100677A09 /* main.m */; };
+		853625A51C9B998100677A09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853625A41C9B998100677A09 /* AppDelegate.m */; };
+		853625A81C9B998100677A09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853625A71C9B998100677A09 /* ViewController.m */; };
+		853625AB1C9B998100677A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853625A91C9B998100677A09 /* Main.storyboard */; };
+		853625AD1C9B998100677A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853625AC1C9B998100677A09 /* Assets.xcassets */; };
+		853625B01C9B998100677A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853625AE1C9B998100677A09 /* LaunchScreen.storyboard */; };
+		853625BB1C9B998100677A09 /* OLUITextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853625BA1C9B998100677A09 /* OLUITextFieldTests.m */; };
+		853625C61C9B998100677A09 /* OLUITextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853625C51C9B998100677A09 /* OLUITextFieldUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853625B71C9B998100677A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853625951C9B998100677A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8536259C1C9B998100677A09;
+			remoteInfo = OLUITextField;
+		};
+		853625C21C9B998100677A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853625951C9B998100677A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8536259C1C9B998100677A09;
+			remoteInfo = OLUITextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8536259D1C9B998100677A09 /* OLUITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLUITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853625A11C9B998100677A09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		853625A31C9B998100677A09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		853625A41C9B998100677A09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		853625A61C9B998100677A09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		853625A71C9B998100677A09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		853625AA1C9B998100677A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853625AC1C9B998100677A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853625AF1C9B998100677A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853625B11C9B998100677A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853625B61C9B998100677A09 /* OLUITextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLUITextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853625BA1C9B998100677A09 /* OLUITextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLUITextFieldTests.m; sourceTree = "<group>"; };
+		853625BC1C9B998100677A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853625C11C9B998100677A09 /* OLUITextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLUITextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853625C51C9B998100677A09 /* OLUITextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLUITextFieldUITests.m; sourceTree = "<group>"; };
+		853625C71C9B998100677A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8536259A1C9B998100677A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625B31C9B998100677A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625BE1C9B998100677A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853625941C9B998100677A09 = {
+			isa = PBXGroup;
+			children = (
+				8536259F1C9B998100677A09 /* OLUITextField */,
+				853625B91C9B998100677A09 /* OLUITextFieldTests */,
+				853625C41C9B998100677A09 /* OLUITextFieldUITests */,
+				8536259E1C9B998100677A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8536259E1C9B998100677A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8536259D1C9B998100677A09 /* OLUITextField.app */,
+				853625B61C9B998100677A09 /* OLUITextFieldTests.xctest */,
+				853625C11C9B998100677A09 /* OLUITextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8536259F1C9B998100677A09 /* OLUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				853625A31C9B998100677A09 /* AppDelegate.h */,
+				853625A41C9B998100677A09 /* AppDelegate.m */,
+				853625A61C9B998100677A09 /* ViewController.h */,
+				853625A71C9B998100677A09 /* ViewController.m */,
+				853625A91C9B998100677A09 /* Main.storyboard */,
+				853625AC1C9B998100677A09 /* Assets.xcassets */,
+				853625AE1C9B998100677A09 /* LaunchScreen.storyboard */,
+				853625B11C9B998100677A09 /* Info.plist */,
+				853625A01C9B998100677A09 /* Supporting Files */,
+			);
+			path = OLUITextField;
+			sourceTree = "<group>";
+		};
+		853625A01C9B998100677A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				853625A11C9B998100677A09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		853625B91C9B998100677A09 /* OLUITextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				853625BA1C9B998100677A09 /* OLUITextFieldTests.m */,
+				853625BC1C9B998100677A09 /* Info.plist */,
+			);
+			path = OLUITextFieldTests;
+			sourceTree = "<group>";
+		};
+		853625C41C9B998100677A09 /* OLUITextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				853625C51C9B998100677A09 /* OLUITextFieldUITests.m */,
+				853625C71C9B998100677A09 /* Info.plist */,
+			);
+			path = OLUITextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8536259C1C9B998100677A09 /* OLUITextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853625CA1C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextField" */;
+			buildPhases = (
+				853625991C9B998100677A09 /* Sources */,
+				8536259A1C9B998100677A09 /* Frameworks */,
+				8536259B1C9B998100677A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLUITextField;
+			productName = OLUITextField;
+			productReference = 8536259D1C9B998100677A09 /* OLUITextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853625B51C9B998100677A09 /* OLUITextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853625CD1C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextFieldTests" */;
+			buildPhases = (
+				853625B21C9B998100677A09 /* Sources */,
+				853625B31C9B998100677A09 /* Frameworks */,
+				853625B41C9B998100677A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853625B81C9B998100677A09 /* PBXTargetDependency */,
+			);
+			name = OLUITextFieldTests;
+			productName = OLUITextFieldTests;
+			productReference = 853625B61C9B998100677A09 /* OLUITextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853625C01C9B998100677A09 /* OLUITextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853625D01C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextFieldUITests" */;
+			buildPhases = (
+				853625BD1C9B998100677A09 /* Sources */,
+				853625BE1C9B998100677A09 /* Frameworks */,
+				853625BF1C9B998100677A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853625C31C9B998100677A09 /* PBXTargetDependency */,
+			);
+			name = OLUITextFieldUITests;
+			productName = OLUITextFieldUITests;
+			productReference = 853625C11C9B998100677A09 /* OLUITextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853625951C9B998100677A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = olive;
+				TargetAttributes = {
+					8536259C1C9B998100677A09 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					853625B51C9B998100677A09 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8536259C1C9B998100677A09;
+					};
+					853625C01C9B998100677A09 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8536259C1C9B998100677A09;
+					};
+				};
+			};
+			buildConfigurationList = 853625981C9B998100677A09 /* Build configuration list for PBXProject "OLUITextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853625941C9B998100677A09;
+			productRefGroup = 8536259E1C9B998100677A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8536259C1C9B998100677A09 /* OLUITextField */,
+				853625B51C9B998100677A09 /* OLUITextFieldTests */,
+				853625C01C9B998100677A09 /* OLUITextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8536259B1C9B998100677A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853625B01C9B998100677A09 /* LaunchScreen.storyboard in Resources */,
+				853625AD1C9B998100677A09 /* Assets.xcassets in Resources */,
+				853625AB1C9B998100677A09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625B41C9B998100677A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625BF1C9B998100677A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853625991C9B998100677A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853625A81C9B998100677A09 /* ViewController.m in Sources */,
+				853625A51C9B998100677A09 /* AppDelegate.m in Sources */,
+				853625A21C9B998100677A09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625B21C9B998100677A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853625BB1C9B998100677A09 /* OLUITextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853625BD1C9B998100677A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853625C61C9B998100677A09 /* OLUITextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853625B81C9B998100677A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8536259C1C9B998100677A09 /* OLUITextField */;
+			targetProxy = 853625B71C9B998100677A09 /* PBXContainerItemProxy */;
+		};
+		853625C31C9B998100677A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8536259C1C9B998100677A09 /* OLUITextField */;
+			targetProxy = 853625C21C9B998100677A09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853625A91C9B998100677A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853625AA1C9B998100677A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		853625AE1C9B998100677A09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853625AF1C9B998100677A09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853625C81C9B998100677A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853625C91C9B998100677A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853625CB1C9B998100677A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OLUITextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853625CC1C9B998100677A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OLUITextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853625CE1C9B998100677A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OLUITextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLUITextField.app/OLUITextField";
+			};
+			name = Debug;
+		};
+		853625CF1C9B998100677A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OLUITextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLUITextField.app/OLUITextField";
+			};
+			name = Release;
+		};
+		853625D11C9B998100677A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OLUITextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OLUITextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		853625D21C9B998100677A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OLUITextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.OLUITextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OLUITextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853625981C9B998100677A09 /* Build configuration list for PBXProject "OLUITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853625C81C9B998100677A09 /* Debug */,
+				853625C91C9B998100677A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853625CA1C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853625CB1C9B998100677A09 /* Debug */,
+				853625CC1C9B998100677A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853625CD1C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853625CE1C9B998100677A09 /* Debug */,
+				853625CF1C9B998100677A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853625D01C9B998100677A09 /* Build configuration list for PBXNativeTarget "OLUITextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853625D11C9B998100677A09 /* Debug */,
+				853625D21C9B998100677A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853625951C9B998100677A09 /* Project object */;
+}
